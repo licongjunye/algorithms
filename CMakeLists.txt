@@ -9,6 +9,6 @@ include_directories("/usr/include/eigen3")
 
 
 # add_executable(kalmanfilter kalmanfilter.cpp)
-add_executable(gaussnewton gaussnewton.cpp)
+add_executable(gaussnewton src/gaussnewton1.cpp)
 
 target_link_libraries(gaussnewton ${OpenCV_LIBS})
