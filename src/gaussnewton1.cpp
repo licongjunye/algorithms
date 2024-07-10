@@ -166,6 +166,7 @@ void gaussnewton(double &x0, double &y0, double &z0) {
 int main(int argc, char const *argv[])
 {
     double x = 100, y = 100, z = 100;
+    // LM_optimize(x, y, z);
     gaussnewton(x, y, z);
 
     std::cout << "x=" << x << "\t y=" << y << "\t z=" << z << std::endl;
